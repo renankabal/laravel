@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+//Rotas publicas
+Route::controller('postagem', 'PostagemController');
+
+//Index da aplicacao
+Route::get('/', function(){
+	return View::make('index');
 });

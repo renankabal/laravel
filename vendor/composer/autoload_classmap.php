@@ -696,6 +696,7 @@ return array(
     'Patchwork\\Utf8\\Bootup' => $vendorDir . '/patchwork/utf8/src/Patchwork/Utf8/Bootup.php',
     'Patchwork\\Utf8\\Compiler' => $vendorDir . '/patchwork/utf8/src/Patchwork/Utf8/Compiler.php',
     'Patchwork\\Utf8\\WindowsStreamWrapper' => $vendorDir . '/patchwork/utf8/src/Patchwork/Utf8/WindowsStreamWrapper.php',
+    'PostagemController' => $baseDir . '/app/controllers/PostagemController.php',
     'Predis\\Autoloader' => $vendorDir . '/predis/predis/lib/Predis/Autoloader.php',
     'Predis\\BasicClientInterface' => $vendorDir . '/predis/predis/lib/Predis/BasicClientInterface.php',
     'Predis\\Client' => $vendorDir . '/predis/predis/lib/Predis/Client.php',
